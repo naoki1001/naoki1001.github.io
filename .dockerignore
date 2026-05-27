@@ -1,0 +1,21 @@
+# .dockerignore
+
+# Git関連
+.git
+.gitignore
+
+# 依存関係
+node_modules
+.pnpm-store
+
+# Next.jsのビルド生成物
+.next
+out
+
+# 環境変数ファイル
+.env*.local
+
+# エディタやOSの不要なファイル
+.vscode
+.DS_Store
+*.log
