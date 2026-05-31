@@ -47,7 +47,7 @@ export function WorkModal({ work }: WorkModalProps) {
                 */}
                 <div className='relative w-full h-48'>
                     <Image
-                        src={work.image}
+                        src={work.image ? work.image:'images/no_image.gif'}
                         alt={work.title}
                         fill
                         className='object-cover'    // アスペクト比を保ったまま枠内に収める
