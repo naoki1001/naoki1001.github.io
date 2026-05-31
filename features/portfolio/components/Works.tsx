@@ -2,9 +2,21 @@ import { WorkModal } from './WorkModal';
 
 const works = [
     {
+        id: 0,
+        title: "AHs2026でデモ/ポスター発表を行いました。",
+        image: "images/ahs2026_oist.jpg",
+        date: "2026年3月17日",
+        description: "3月16日から3月19日に行われたAHs2026でデモ発表を行いました。沖縄開催ということもあり、日本人参加者がかなり多く、日本語と英語が入り混じった発表になりました。",
+        links: [
+            { text: "AHs2026", url: "https://augmented-humans.org/" },
+            { text: "論文", url: "https://doi.org/10.1145/3795011.3797413" },
+            { text: "活動報告 (研究室Webページ) ", url: "https://pai.eng.shibaura-it.ac.jp/reports/post-2026-03-20/" },
+        ]
+    },
+    {
         id: 1,
         title: 'SUI2024でデモ発表を行いました。',
-        image: 'images/no_image.gif',
+        image: 'images/sui2024_trier_univ.jpg',
         date: '2024年10月7日',
         description: '10月7日から10月9日に行われたSUI2024でデモ発表を行いました。英語での発表だったので大変でしたが、他の研究を聞きに行ったり、発表のない日はドイツ観光に充てたりして様々な面で貴重な体験でした。',
         links: [
